@@ -36,6 +36,9 @@
            fetch="https://github.com/AOSPA"
            review="gerrit.paranoidandroid.co" />
 
+  <remote  name="CRomPAC"
+           fetch="https://github.com/CRomPAC/" />
+  
   <default revision="refs/heads/cm-11.0"
            remote="github"
            sync-c="true"
@@ -487,7 +490,7 @@
   <project path="packages/apps/PacPapers" name="android_packages_apps_PacPapers" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PacStats" name="android_packages_apps_PacStats" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="pac" revision="pac-4.4" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pac" revision="pac-4.4" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="CRomPAC" revision="pac-4.4" />
   <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="pac" revision="pac-4.4" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="pac" revision="pac-4.4" />
